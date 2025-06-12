@@ -1,0 +1,5 @@
+wandb:
+    project: in-context-training
+    entity: arun_akashr-texas-a-m-universit
+    notes:
+    log_every_steps: 100
