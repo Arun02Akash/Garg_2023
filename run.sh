@@ -10,7 +10,7 @@
 #SBATCH --gres=gpu:1
 
 # Load your conda setup (adjust path if needed)
-source /scratch/user/arun_akashr/miniconda3/etc/profile.d/conda.sh
+source /scratch/user/<net-id>/miniconda3/etc/profile.d/conda.sh
 conda activate in-context-learning
 export WANDB_MODE=offline  
 
