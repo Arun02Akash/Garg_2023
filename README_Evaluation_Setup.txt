@@ -40,6 +40,6 @@ Main Project Folder/
     - To visualize additional baselines:
           - Edit the `relevant_model_names` dictionary in `plot_utils.py`.
           - Ensure that the corresponding baseline model was evaluated during training alongside the Transformer, as           defined in `models.py`.
-          - Refer to Note 4 in `README_HPRC_Setup.txt` for further details.
+          - Refer to Note 5 in `README_HPRC_Setup.txt` for further details.
 
 ====================================================================
