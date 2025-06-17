@@ -26,7 +26,7 @@ def build_model(conf):
     return model
 
 
-def get_relevant_baselines(task_name):
+def get_relevant_baselines(task_name, model_n_dims):
     task_to_baselines = {
         "linear_regression": [
             (LeastSquaresModel, {}),
@@ -46,13 +46,13 @@ def get_relevant_baselines(task_name):
         "relu_2nn_regression": [
             (LeastSquaresModel, {}),
             (NNModel, {"n_neighbors": 3}),
-            (AveragingModel, {}),
+            (AveragingModel, {}),   
             (
                 GDModel,
                 {
                     "model_class": NeuralNetwork,
                     "model_class_args": {
-                        "in_size": 20,
+                        "in_size": model_n_dims,
                         "hidden_size": 100,
                         "out_size": 1,
                     },

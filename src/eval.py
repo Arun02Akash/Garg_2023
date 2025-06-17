@@ -26,11 +26,11 @@ def get_model_from_run(run_path, step=-1, only_conf=False):
     if step == -1:
         state_path = os.path.join(run_path, "state.pt")
         state = torch.load(state_path)
-        model.load_state_dict(state["model_state_dict"])
+        model.load_state_dict(state["model_state_dict"], strict=False)
     else:
         model_path = os.path.join(run_path, f"model_{step}.pt")
         state_dict = torch.load(model_path)
-        model.load_state_dict(state_dict)
+        model.load_state_dict(state_dict, strict=False)
 
     return model, conf
 
@@ -298,7 +298,7 @@ def get_run_metrics(
         model = model.cuda().eval()
         all_models = [model]
         if not skip_baselines:
-            all_models += models.get_relevant_baselines(conf.training.task)
+            all_models += models.get_relevant_baselines(conf.training.task, conf.model.n_dims)
     evaluation_kwargs = build_evals(conf)
 
     if not cache:

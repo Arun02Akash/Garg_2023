@@ -26,10 +26,12 @@ relevant_model_names = {
     ],
     "decision_tree": [
         "Transformer",
+        "Least Squares",
         "3-Nearest Neighbors",
-        "2-layer NN, GD",
         "Greedy Tree Learning",
+        "Averaging",
         "XGBoost",
+        #"2-layer NN, GD",
     ],
     "relu_2nn_regression": [
         "Transformer",
