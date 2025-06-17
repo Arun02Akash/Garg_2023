@@ -93,4 +93,16 @@
 
 20. The output generated from program execution can be found in output.txt and error.txt
 
+Notes:
+
+1. When training the sparse_linear_regression task, always specify sparsity under task_kwargs in toy.yaml.
+
+2. task_kwargs in toy.yaml can also be used to pass various other parameters specific to each task such as depth for decision trees, scale and noise_std for noisy regressions, and hidden_layer_size for two-layer neural networks.
+
+3. Ensure that model.n_positions is greater than or equal to training.points.end in the config.
+
+4. Similarly, model.n_dims must be greater than or equal to training.dims.end.
+
+5. To compare additional baseline models on each task, add them to the task_to_baselines dictionary inside the get_relevant_baselines function in models.py.
+
 ====================================================================
