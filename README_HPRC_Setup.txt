@@ -78,7 +78,7 @@
 15. Place your `run.sh` script in the project directory:
     /scratch/user/<net-id>/in-context-learning-main/
 
-16. Execute the training job:
+16. Replace <net-id> in run.sh and execute the training job:
     sbatch run.sh
 
 17. To change training tasks or model settings:
