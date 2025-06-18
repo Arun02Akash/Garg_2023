@@ -27,10 +27,10 @@
      You should see:
      base*  C:\Users\<username>\miniconda3
 
-5. Upload the `in-context-learning-main` project folder into the folder directory of your     choice:
+5. Upload the `in-context-learning-main` project folder into the folder directory of your choice:
     - C:\Users\<username>\<project-directory>
 
-6. Navigate to the project directory on the terminal:
+6.  Open the project folder in VS Code, then launch a terminal and navigate to the same directory using:
    cd C:\Users\<username>\<project-directory>
 
 7. Modify `environment.yml`:

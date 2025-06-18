@@ -1,0 +1,40 @@
+------------------
+System Information
+------------------
+      Time of this report: 6/17/2025, 19:03:29
+             Machine name: DESKTOP-MT52BKA
+         Operating System: Windows 10 Home Single Language 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)
+                 Language: English (Regional Setting: English)
+      System Manufacturer: Dell Inc.
+             System Model: Inspiron 7501
+                     BIOS: 1.25.0 (type: UEFI)
+                Processor: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 CPUs), ~2.6GHz
+                   Memory: 16384MB RAM
+      Available OS Memory: 16146MB RAM
+                Page File: 18306MB used, 6542MB available
+              Windows Dir: C:\Windows
+          DirectX Version: DirectX 12
+      DX Setup Parameters: Not found
+         User DPI Setting: 120 DPI (125 percent)
+       System DPI Setting: 120 DPI (125 percent)
+          DWM DPI Scaling: UnKnown
+                 Miracast: Available, with HDCP
+Microsoft Graphics Hybrid: Supported
+ DirectX Database Version: 1.7.1
+           DxDiag Version: 10.00.19041.5794 64bit Unicode
+
+---------------
+Display Devices
+---------------
+           Card name: Intel(R) UHD Graphics
+        Manufacturer: Intel Corporation
+           Chip type: Intel(R) UHD Graphics Family
+            DAC type: Internal
+         Device Type: Full Device (POST)
+         Card name: NVIDIA GeForce GTX 1650 Ti
+        Manufacturer: NVIDIA
+           Chip type: NVIDIA GeForce GTX 1650 Ti
+            DAC type: Integrated RAMDAC
+      Display Memory: 12007 MB
+    Dedicated Memory: 3935 MB
+       Shared Memory: 8072 MB
