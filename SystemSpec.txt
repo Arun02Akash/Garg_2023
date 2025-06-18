@@ -31,7 +31,7 @@ Display Devices
            Chip type: Intel(R) UHD Graphics Family
             DAC type: Internal
          Device Type: Full Device (POST)
-         Card name: NVIDIA GeForce GTX 1650 Ti
+           Card name: NVIDIA GeForce GTX 1650 Ti
         Manufacturer: NVIDIA
            Chip type: NVIDIA GeForce GTX 1650 Ti
             DAC type: Integrated RAMDAC
